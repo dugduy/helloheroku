@@ -3,4 +3,4 @@ app=Flask('app')
 @app.route('/')
 def home():
     return 'Hello World!'
-app.run('',80)
+app.run('0.0.0.0',80)
